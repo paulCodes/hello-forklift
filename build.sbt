@@ -27,3 +27,4 @@ resolvers ++= Seq(
   "Fuse" at "http://repo.fusesource.com/nexus/content/groups/public"
 )
 
+addCommandAlias("dist", ";clean;compile;package")

@@ -16,7 +16,7 @@ Building
 
 To build, run the following SBT command:
 
-    $ sbt clean compile package
+    $ sbt dist
 
 Running
 =======
