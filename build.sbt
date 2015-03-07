@@ -16,6 +16,9 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.0.13",
   "org.apache.geronimo.specs" % "geronimo-jms_1.1_spec" % "1.1.1",
   "org.reflections" % "reflections" % "0.9.9-RC1",
+  "org.apache.activemq" % "activemq-all" % "5.8.0",
+  "com.h2database" % "h2" % "1.4.186",
+  "commons-io" % "commons-io" % "2.4" % "test",
   "com.novocode" % "junit-interface" % "0.10" % "test",
   "org.mockito" % "mockito-all" % "1.9.5" % "test"
 )
